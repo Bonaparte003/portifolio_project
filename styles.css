@@ -65,7 +65,7 @@ nav ul li a {
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 480px){
     .Welcome_page nav ul{
         display: none;
     }
@@ -80,7 +80,11 @@ nav ul li a {
         display: flex;
         flex-direction: row;
         gap: 10px;
+        background: linear-gradient(150deg, rgba(157, 157, 157, 0.334),  rgba(255, 255, 255, 0.499) 150px, rgba(141, 141, 141, 0.334));
+        padding: 10px;
+        border-radius: 10px;
     }
+
 
     ::-webkit-scrollbar {
         display: none;
