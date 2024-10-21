@@ -19,28 +19,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 1px); /* Adjust width to account for padding */
-    height: 100vh;
-    padding: 350px 150px; /* Add padding around the container */
+    width: calc(100% - 1px);
+    height: 100%;
+    padding: 350px 150px;
     gap: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    box-sizing: border-box;
 }
-
-/*Responsiveness*/
-@media (max-width: 1300px){
-    
-    .Skills .super_container2{
-        flex-direction: column;
-        padding: 50px 50px;
-        margin-left: 30px;
-        width: calc(100% - 80px);
-    }
-}
-
-
-
-/* wrapper1*/
-
 
 .Skills .super_container2  ul{
     display: none;
@@ -140,7 +124,7 @@
 
 
 .Skills .super_container2  ul li{
-    font-family: 'Jura', cursive;
+    font-family: 'Jura';
     position: relative;
     list-style: none;
     font-size: 1.2em;
@@ -198,33 +182,147 @@
 /*=======responsiveness*/
 
 /*small laptop*/
-@media (max-width: 1410px) and (min-width: 1300px){
-    .Skills .super_container2 ul li,
-    .Skills .super_container2 ul li,
-    .Projects .super_container2 ul li{
-        font-size: 1.0em;
-        padding: 5px;
+/* Large screens */
+@media (max-width: 1360px) and (min-width: 1280px){
+
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        box-sizing: border-box;
     }
-}
 
 
-
-@media (max-width: 530px){
-    .Skills .super_container2 ul li,
-    .Skills.super_container2  ul li,
-    .Skills .super_container2 ul li{
+    .Skills .super_container2 ul{
         font-size: 0.8em;
+        padding: 5px;
+        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     }
 
-    .Skills .super_container2 ul li{
-        padding: 8px;
+    .Skills p{
+        font-size: 1.0em;
+        font-weight: 900;
+        text-align: center;
     }
 }
 
-@media (max-width: 480px){
-    .Skills.super_container2 ul li,
-    .Skills .super_container2 ul li,
-    .Skills .super_container2 ul li{
+/* Medium-large screens */
+@media (max-width: 1280px) and (min-width: 1000px){
+
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .Skills .super_container2 ul{
+        font-size: 0.6em;
+        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    }
+    .Skills p{
+        font-size: 0.8em;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+/* Medium and Small creens */
+@media (max-width: 999px) and (min-width: 509px){
+
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 350px 150px; /* Add padding around the container */
+        gap: 10px;
+    }
+    .Skills .super_container2 ul{
+        font-size: 0.7em;
+    }
+    .Skills p{
+        font-size: 1.2em;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+@media (max-width: 509px) and (min-width: 466px){
+
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 350px 150px;
+        gap: 10px;
+    }
+    .Skills .super_container2 ul{
+        font-size: 0.3em;
+    }
+    .Skills p{
+        font-size: 0.7em;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+@media(max-width: 465px) and (min-width: 387px){
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 350px 150px;
+        gap: 10px;
+    }
+
+    .Skills .super_container2 ul li {
         display: none;
+    }
+
+    .Skills p{
+        font-size: 0.7em;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+@media(max-width: 387px){
+    .Skills .super_container2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 350px 150px;
+        gap: 10px;
+    }
+
+    .Skills .super_container2 ul li {
+        display: none;
+    }
+
+    .Skills p{
+        font-size: 0.5em;
+        font-weight: 900;
+        text-align: center;
     }
 }

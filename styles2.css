@@ -9,10 +9,10 @@
     font-size: 1.5em;
     font-weight: 900;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Projects .super_container{
@@ -21,23 +21,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 1px); /* Adjust width to account for padding */
+    width: calc(100% - 1px);
     height: 100%;
-    padding: 150px 150px; /* Add padding around the container */
+    padding: 150px 150px;
     gap: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
-
-/*Responsiveness*/
-@media (max-width: 1300px){
-    .Projects .super_container{
-        flex-direction: column;
-        padding: 50px 50px;
-        margin-left: 30px;
-        width: calc(100% - 80px);
-    }
-}
-
 
 
 /* wrapper1*/
@@ -75,10 +65,10 @@
 
 
 .Projects .super_container .wrapper1  ul li{
-    font-family: 'Jura', cursive;
+    font-family: 'Jura';
     position: relative;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1.5em;
@@ -190,10 +180,10 @@
 
 
 .Projects .super_container .wrapper2  ul li{
-    font-family: 'Jura', cursive;
+    font-family: 'Jura';
     position: relative;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1.5em;
@@ -281,10 +271,10 @@
 
 
 .Projects .super_container .wrapper3  ul li{
-    font-family: 'Jura', cursive;
+    font-family: 'Jura';
     position: relative;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1.5em;
@@ -314,35 +304,114 @@
 
 
 /*responsiveness*/
-
-/*small laptop*/
-@media (max-width: 1410px) and (min-width: 1300px){
-    .Projects .super_container .wrapper1 ul li,
-    .Projects .super_container .wrapper2 ul li,
-    .Projects .super_container .wrapper3 ul li{
+/*phone*/
+@media (max-width: 600px) and (min-width: 480px){
+    .Projects .super_container{
+        flex-direction: column;
+        padding: 50px 50px;
+        width: 100%;
+    }
+    .Projects p{
         font-size: 1.0em;
-        padding: 5px;
+        font-weight: 900;
+        text-align: center;
     }
-}
 
-
-
-@media (max-width: 530px){
-    .Projects .super_container .wrapper2 ul li,
-    .Projects .super_container .wrapper1 ul li,
-    .Projects .super_container .wrapper3 ul li{
+    .Projects .super_container ul{
         font-size: 0.8em;
+        padding: 1px 1px;
+    }
+    
+}
+
+
+@media (max-width: 479px){
+    .Projects .super_container{
+        flex-direction: column;
+        padding: 50px 50px;
+        width: 100%;
+    }
+    .Projects p{
+        font-size: 0.5em;
+        font-weight: 900;
+        text-align: center;
     }
 
-    .Projects .super_container .wrapper3 ul li{
-        padding: 8px;
+    .Projects .super_container ul{
+        font-size: 0.3em;
+        padding: 1px 1px;
+    }
+    
+}
+
+/*laptops*/
+@media (max-width: 1253px) and (min-width: 881px){
+    .Projects .super_container{
+        flex-direction: row;
+        padding: 50px 50px;
+        width: 100%;
+    }
+    .Projects p{
+        font-size: 0.8em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .Projects .super_container ul{
+        font-size: 0.6em;
+        padding: 1px 1px;
     }
 }
 
-@media (max-width: 480px){
-    .Projects .super_container .wrapper2 ul li,
-    .Projects .super_container .wrapper1 ul li,
-    .Projects .super_container .wrapper3 ul li{
-        display: none;
+@media(max-width: 880px) and (min-width: 780px){
+    .Projects .super_container{
+        flex-direction: row;
+        padding: 30px 30px;
+        width: 100%;
+    }
+    .Projects p{
+        font-size: 0.6em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .Projects .super_container ul{
+        font-size: 0.4em;
+        padding: 1px 1px;
+    }
+}
+
+@media(max-width: 780px) and (min-width: 690px){
+    .Projects .super_container{
+        flex-direction: row;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .Projects p{
+        font-size: 0.5em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .Projects .super_container ul{
+        font-size: 0.2em;
+        padding: 1px 1px;
+    }
+}
+@media(max-width: 690px) and (min-width: 600px){
+    .Projects .super_container{
+        flex-direction: row;
+        padding: 10px 10px;
+        width: 100%;
+    }
+    .Projects p{
+        font-size: 0.3em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .Projects .super_container ul{
+        font-size: 0.1em;
+        padding: 1px 1px;
     }
 }
