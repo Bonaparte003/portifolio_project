@@ -36,7 +36,7 @@
 }
 
 .Contact .super_container3 .invitation p{
-    font-family: 'MacLaren', cursive;
+    font-family: 'MacLaren';
     font-size: 60px;
     color: white;
 }
@@ -68,7 +68,7 @@
     transition: all 0.3s ease;
     background-color: rgb(250, 244, 244);
     border: 1px solid rgb(167, 167, 167);
-    font-family: 'Margray', cursive;
+    font-family: 'Margray';
     text-indent: 20px;
     font-size: 16px;
 }
@@ -76,7 +76,7 @@
 .Contact .super_container3 .message .email_holder::placeholder,
 .Contact .super_container3 .message .name_holder::placeholder{
     text-indent: 20px;
-    font-family: 'Margray', cursive;
+    font-family: 'Margray';
 }
 
 
@@ -92,26 +92,26 @@
     border-radius: 8px;
     transition: all 0.3s ease;
     background-color: rgb(250, 244, 244);
-    font-family: 'Margray', cursive;
+    font-family: 'Margray';
     text-indent: 20px;
     padding-top: 20px;
     font-size: 16px;
 }
 
 .Contact .super_container3 .message .message_holder::placeholder{
-    font-family: 'Margray', cursive;
+    font-family: 'Margray';
     text-indent: 20px;
 }
 
 .Contact .super_container3 .message button{
-    font-family: 'MacLaren', cursive;
+    font-family: 'MacLaren';
     font-size: 20px;
     flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 10%;
+    width: 50%;
     height: 100%;
     border-radius: 8px;
     transition: all 0.3s ease;

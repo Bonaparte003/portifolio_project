@@ -124,12 +124,12 @@ nav ul li a {
     flex-direction: column;
     gap: 10px;
     margin-left: 10px;
-    pointer-events: none; /* Disable pointer events for the ul element */
+    pointer-events: none;
 }
 
 .Welcome_page .contact-links ul li a {
-    pointer-events: auto; /* Enable pointer events for the anchor elements */
-    cursor: pointer; /* Ensure the cursor is a pointer when hovering over the anchor elements */
+    pointer-events: auto;
+    cursor: pointer;
 }
 .Welcome_page .contact-links ul li img{
     width: 20px;

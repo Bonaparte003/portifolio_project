@@ -136,7 +136,7 @@
     color: rgb(167, 164, 164);
     border-radius: 5px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px;
     transition: all 0.3s ease;
     gap: 0;
 }
@@ -201,7 +201,7 @@
     .Skills .super_container2 ul{
         font-size: 0.8em;
         padding: 5px;
-        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+        box-sizing: border-box;
     }
 
     .Skills p{
@@ -227,7 +227,7 @@
 
     .Skills .super_container2 ul{
         font-size: 0.6em;
-        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+        box-sizing: border-box;
     }
     .Skills p{
         font-size: 0.8em;
@@ -246,7 +246,7 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-        padding: 350px 150px; /* Add padding around the container */
+        padding: 350px 150px;
         gap: 10px;
     }
     .Skills .super_container2 ul{
