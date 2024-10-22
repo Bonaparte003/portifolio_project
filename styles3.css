@@ -109,7 +109,7 @@
 }
 
 
-.Projects .super_container .wrapper1 .Website_development{
+.Projects .super_container .wrapper1 .Frontend_development{
     position: relative;
     flex: 1;
     display: flex;
@@ -138,7 +138,7 @@
     width: 100%;
     padding: 5px 5px;
     transition: all 0.3s ease;
-    gap: 0;
+    box-sizing: border-box;
 }
 
 .Skills .super_container2 ul li:hover{
@@ -181,148 +181,113 @@
 
 /*=======responsiveness*/
 
-/*small laptop*/
-/* Large screens */
-@media (max-width: 1360px) and (min-width: 1280px){
-
+@media (max-width: 600px) and (min-width: 480px){
     .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
+        flex-direction: column;
+        padding: 350px 50px;
         width: 100%;
-        gap: 10px;
-        box-sizing: border-box;
     }
-
-
-    .Skills .super_container2 ul{
-        font-size: 0.8em;
-        padding: 5px;
-        box-sizing: border-box;
-    }
-
     .Skills p{
         font-size: 1.0em;
         font-weight: 900;
         text-align: center;
     }
+
+    .Skills .super_container2 ul{
+        font-size: 0.8em;
+        padding: 1px 1px;
+    }
+    
 }
 
-/* Medium-large screens */
-@media (max-width: 1280px) and (min-width: 1000px){
 
+@media (max-width: 479px){
     .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
+        flex-direction: column;
+        padding: 350px 50px;
         width: 100%;
-        gap: 10px;
+    }
+    .Skills p{
+        font-size: 0.5em;
+        font-weight: 900;
+        text-align: center;
     }
 
     .Skills .super_container2 ul{
-        font-size: 0.6em;
-        box-sizing: border-box;
+        font-size: 0.3em;
+        padding: 1px 1px;
+    }
+    
+}
+
+/*laptops*/
+@media (max-width: 1253px) and (min-width: 881px){
+    .Skills .super_container2{
+        flex-direction: row;
+        padding: 350px 50px;
+        width: 100%;
     }
     .Skills p{
         font-size: 0.8em;
         font-weight: 900;
         text-align: center;
     }
-}
 
-/* Medium and Small creens */
-@media (max-width: 999px) and (min-width: 509px){
-
-    .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 350px 150px;
-        gap: 10px;
-    }
     .Skills .super_container2 ul{
-        font-size: 0.7em;
-    }
-    .Skills p{
-        font-size: 1.2em;
-        font-weight: 900;
-        text-align: center;
+        font-size: 0.6em;
+        padding: 1px 1px;
     }
 }
 
-@media (max-width: 509px) and (min-width: 466px){
-
+@media(max-width: 880px) and (min-width: 780px){
     .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 350px 150px;
-        gap: 10px;
+        flex-direction: row;
+        padding: 350px 50px;
+        width: 100%;
     }
+    .Skills p{
+        font-size: 0.6em;
+        font-weight: 900;
+        text-align: center;
+    }
+
     .Skills .super_container2 ul{
-        font-size: 0.3em;
-    }
-    .Skills p{
-        font-size: 0.7em;
-        font-weight: 900;
-        text-align: center;
+        font-size: 0.4em;
+        padding: 1px 1px;
     }
 }
 
-@media(max-width: 465px) and (min-width: 387px){
+@media(max-width: 780px) and (min-width: 690px){
     .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 350px 150px;
-        gap: 10px;
+        flex-direction: row;
+        padding: 350px 50px;
+        width: 100%;
     }
-
-    .Skills .super_container2 ul li {
-        display: none;
-    }
-
-    .Skills p{
-        font-size: 0.7em;
-        font-weight: 900;
-        text-align: center;
-    }
-}
-
-@media(max-width: 387px){
-    .Skills .super_container2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 350px 150px;
-        gap: 10px;
-    }
-
-    .Skills .super_container2 ul li {
-        display: none;
-    }
-
     .Skills p{
         font-size: 0.5em;
         font-weight: 900;
         text-align: center;
+    }
+
+    .Skills .super_container2 ul{
+        font-size: 0.2em;
+        padding: 1px 1px;
+    }
+}
+@media(max-width: 690px) and (min-width: 600px){
+    .Skills .super_container2{
+        flex-direction: row;
+        padding: 350px 20px;
+        width: 100%;
+    }
+    .Skills p{
+        font-size: 0.5em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .Skills .super_container2 ul{
+        font-size: 0.2em;
+        padding: 1px 1px;
     }
 }
