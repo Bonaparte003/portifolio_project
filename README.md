@@ -2,6 +2,8 @@
 
 Welcome to the portfolio website of UTERAMAHORO Avellin Bonaparte. This project showcases various aspects of my work, skills, and education.
 
+![VISIT MY WEBSITE](https://bonaparte003.github.io/portifolio_project/)
+
 ## Table of Contents
 
 - [Welcome Page](#welcome-page)
@@ -19,7 +21,7 @@ The welcome page introduces the website with a navigation menu and a main sectio
 
 ## About Page
 
-The about page provides a brief introduction about myself, UTERAMAHORO Avellin Bonaparte, and my background as a Software Engineer.
+The about page provides a brief introduction about myself, UTERAMAHORO Avellin Bonaparte, and a welcome message.
 
 ## Projects Page
 
