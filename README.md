@@ -2,7 +2,7 @@
 
 Welcome to the portfolio website of UTERAMAHORO Avellin Bonaparte. This project showcases various aspects of my work, skills, and education.
 
-![VISIT MY WEBSITE](https://bonaparte003.github.io/portifolio_project/)
+[VISIT MY WEBSITE](https://bonaparte003.github.io/portifolio_project/)
 
 ## Table of Contents
 
