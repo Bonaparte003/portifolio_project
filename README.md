@@ -17,8 +17,6 @@ Welcome to the portfolio website of UTERAMAHORO Avellin Bonaparte. This project 
 
 The welcome page introduces the website with a navigation menu and a main section featuring a welcome message and various logos.
 
-![Welcome Page](./images/logo.png)
-
 ## About Page
 
 The about page provides a brief introduction about myself, UTERAMAHORO Avellin Bonaparte, and my background as a Software Engineer.
